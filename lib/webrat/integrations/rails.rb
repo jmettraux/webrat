@@ -1,5 +1,5 @@
 require "action_controller"
-require "action_controller/integration"
+require "action_controller/deprecated/integration_test"
 
 module ActionController #:nodoc:
   IntegrationTest.class_eval do
